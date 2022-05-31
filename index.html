@@ -24,7 +24,7 @@
                     <!--fine logo-->
                     <!--button collapse-->
                     <button
-                        class="navbar-toggler"
+                        class="navbar-toggler text-secondary border"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNav"
@@ -32,7 +32,9 @@
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                         >
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon">
+                             ...
+                        </span>
                     </button>
                     <!--nav items-->
                     <div class="collapse navbar-collapse" id="navbarNav">
@@ -78,7 +80,7 @@
       <!--inizio main-->
       <main>
           <!--cards-->
-            <section id="portfolio" class="album my-5">
+            <section id="portfolio" class="album mt-5 mb-4">
               <!--title-->
                 <h4 class="text-center">
                     PORTFOLIO
@@ -88,21 +90,21 @@
                     <!--row-->
                     <div class="row">
                         <!--card 1-->
-                        <div class="col-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center mb-3">
                             <!--border-->
                             <div class="border">
                                 <!--img-->
                                 <img src="img/portfolio/cabin.png" alt="cabin" style="width: 100%;">
                                 <!--img description-->
-                                <p class="mt-2 mb-1" style="font-size: 13px">
+                                <p class="mt-2 mb-1 small" style="font-size: 13px">
                                     Cabin Website
                                 </p>
                                 <!--buttons-->
                                 <div class="mb-2">
-                                    <button class="btn btn-info text-dark mx-1 px-2 py-1" style="font-size: 13px">
+                                    <button class="small btn btn-info text-dark mx-1 px-2 py-1" style="font-size: 13px">
                                         Preview
                                     </button>
-                                    <button class="border-info btn text-info mx-1 px-2 py-1" style="font-size: 13px">
+                                    <button class="border-info btn text-info mx-1 px-2 py-1 small" style="font-size: 13px">
                                         Visit site
                                     </button>
                                 </div>
@@ -111,7 +113,7 @@
                             <!--fine border-->
                         </div>
                         <!--card 2-->
-                        <div class="col-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center mb-3">
                             <!--border-->
                             <div class="border">
                                 <!--img-->
@@ -134,7 +136,7 @@
                             <!--fine border-->
                         </div>
                         <!--card 3-->
-                        <div class="col-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center mb-3">
                             <!--border-->
                             <div class="border">
                                 <!--img-->
@@ -157,7 +159,7 @@
                             <!--fine border-->
                         </div>
                         <!--card 4-->
-                        <div class="col-4 text-center mt-3">
+                        <div class="col-lg-4 col-md-12 text-center mb-md-3">
                             <!--border-->
                             <div class="border">
                                 <!--img-->
@@ -180,7 +182,7 @@
                             <!--fine border-->
                         </div>
                         <!--card 5-->
-                        <div class="col-4 text-center mt-3">
+                        <div class="col-lg-4 col-md-12 text-center mb-md-3">
                             <!--border-->
                             <div class="border">
                                 <!--img-->
@@ -203,7 +205,7 @@
                             <!--fine border-->
                         </div>
                         <!--card 6-->
-                        <div class="col-4 text-center mt-3">
+                        <div class="col-lg-4 col-md-12 text-center">
                             <!--border-->
                             <div class="border">
                                 <!--img-->
@@ -233,21 +235,21 @@
           <!--fine cards-->
           <!--inizio abouts-->
             <section id="about" class="flex-container bg-info">
-              <div class="row col-11 d-flex justify-content-center m-auto py-4" >
+              <div class="row col-11 d-flex justify-content-center m-auto py-5" >
                 <h4 class="text-center">
                     ABOUT
                 </h4>
-                <div class="col-6 ps-4">
+                <div class="col-lg-6 col-md-12">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eligendi, aliquid magnam vel voluptate dolor aperiam nobis ullam ea perspiciatis totam dicta optio in reiciendis molestiae magni. Laborum, dolores eius?
                 </div>
-                <div class="col-6 pe-4">
+                <div class="col-lg-6 col-md-12">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis adipisci ab molestias tempora alias illo impedit excepturi earum vero. Sunt veniam maiores autem similique ipsam earum deleniti consequatur repellat odio!
                 </div>
               </div>
             </section>
             <!--fine abouts-->
             <!--sezione contact me-->
-            <section id="contact" class="my-4">
+            <section id="contact" class="my-5">
                 <div class="container">
                     <h4 class="text-center">
                         CONTACT ME
@@ -255,28 +257,28 @@
                     <form action="#">
                         <div class="row">
                             <!--first name-->
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <label for="first-name">
-                                    Last name
+                                    First name
                                 </label>
                                 <input class="form-control my-1" type="first-name" id="first-name" name="first-name" placeholder="Enter your first name...">
                             </div>
                             <!--last name-->
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <label for="last-name">
                                     Last name
                                 </label>
                                 <input class="form-control my-1" type="last-name" id="last-name" name="last-name" placeholder="Enter your last name...">
                             </div>
                             <!--email address-->
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <label for="email-address">
                                     Email address
                                 </label>
                                 <input class="form-control my-1" type="email-address" id="email-address" name="email-address" placeholder="Enter your e-mail...">
                             </div>
                             <!--phone number-->
-                            <div class="col-6">
+                            <div class="col-lg-6 col-md-12">
                                 <label for="phone-number">
                                     Phone number
                                 </label>
@@ -305,28 +307,28 @@
       <!--inizio footer-->
       <footer>
         <section class="flex-container bg-dark">
-            <div class="row col-11 d-flex justify-content-around m-auto py-4 text-secondary" >
-              <div class="col-4 ps-4 text-center">
-                  <h4>
+            <div class="row col-11 d-flex justify-content-around m-auto py-5 text-secondary" >
+              <div class="col-lg-4 col-md-12 text-center">
+                  <h4 class="mb-3">
                       LOCATION
                   </h4>
-                  <p>
+                  <p class="small">
                     2215 John Daniel Drive
                   </p>
-                  <p>
+                  <p class="small">
                       Clark, MO 65243
                   </p>
               </div>
-              <div class="col-4 pe-4 text-center">
-                  <h4>
+              <div class="col-lg-4 col-md-12 text-center">
+                  <h4 class="mb-3">
                       AROUND THE WEB
                   </h4>
-                  <a class="text-info" href="@">
+                  <a class="small text-info" href="@">
                       www.pincopallo.com
                   </a>
               </div>
-              <div class="col-6 text-center m-auto">
-                  Copyright Your Website 2022
+              <div class="small col-lg-6 col-md-12 text-center m-auto py-3">
+                  Copyright &copy; Your Website 2022
               </div>
             </div>
           </section>
