@@ -41,13 +41,13 @@
                                 <a class="nav-link text-info" aria-current="page" href="#">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-info" href="#">PORTFOLIO</a>
+                                <a class="nav-link text-info" href="#portfolio">PORTFOLIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-info" href="#">ABOUT</a>
+                                <a class="nav-link text-info" href="#about">ABOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-info" href="#">CONTACT ME</a>
+                                <a class="nav-link text-info" href="#contact">CONTACT ME</a>
                             </li>
                         </ul>
                     </div>
@@ -78,7 +78,7 @@
       <!--inizio main-->
       <main>
           <!--cards-->
-            <section class="album my-5">
+            <section id="portfolio" class="album my-5">
               <!--title-->
                 <h4 class="text-center">
                     PORTFOLIO
@@ -232,7 +232,7 @@
             </section>
           <!--fine cards-->
           <!--inizio abouts-->
-            <section class="flex-container bg-info">
+            <section id="about" class="flex-container bg-info">
               <div class="row col-11 d-flex justify-content-center m-auto py-4" >
                 <h4 class="text-center">
                     ABOUT
@@ -247,7 +247,58 @@
             </section>
             <!--fine abouts-->
             <!--sezione contact me-->
-            <section></section>
+            <section id="contact" class="my-4">
+                <div class="container">
+                    <h4 class="text-center">
+                        CONTACT ME
+                    </h4>
+                    <form action="#">
+                        <div class="row">
+                            <!--first name-->
+                            <div class="col-6">
+                                <label for="first-name">
+                                    Last name
+                                </label>
+                                <input class="form-control my-1" type="first-name" id="first-name" name="first-name" placeholder="Enter your first name...">
+                            </div>
+                            <!--last name-->
+                            <div class="col-6">
+                                <label for="last-name">
+                                    Last name
+                                </label>
+                                <input class="form-control my-1" type="last-name" id="last-name" name="last-name" placeholder="Enter your last name...">
+                            </div>
+                            <!--email address-->
+                            <div class="col-6">
+                                <label for="email-address">
+                                    Email address
+                                </label>
+                                <input class="form-control my-1" type="email-address" id="email-address" name="email-address" placeholder="Enter your e-mail...">
+                            </div>
+                            <!--phone number-->
+                            <div class="col-6">
+                                <label for="phone-number">
+                                    Phone number
+                                </label>
+                                <input class="form-control my-1" type="phone-number" id="phone-number" name="phone-number" placeholder="(123) 1234 5677">
+                            </div>
+                            <!--message-->
+                            <div class="col-12">
+                                <label for="message">
+                                    Message
+                                </label>
+                                <input class="form-control my-1" type="message" id="message" name="message" style="height: 114px;">
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-info text-dark" style="font-size: 13px">
+                                    Send
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+            </section>
             <!--fine sezione contact me-->
         </main>
       <!--fine main-->
